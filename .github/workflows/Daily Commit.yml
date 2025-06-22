@@ -11,8 +11,6 @@ on:
     branches: [ "main" ]
 
     name: Daily Commit
-
-on:
   schedule:
     - cron: '17 3 * * *'  # Runs daily at 03:17 UTC
 
